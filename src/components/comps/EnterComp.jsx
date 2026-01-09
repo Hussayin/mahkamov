@@ -23,7 +23,7 @@ const logoss = [
 
 const EnterComp = () => {
   return (
-    <div className="bg-[#101625] h-[93vh] flex items-center">
+    <div className="bg-[#101625] h-[100vh] flex items-center">
       {/* ASOSIY CONTAINER */}
       <div className="w-full flex flex-col gap-[20px]">
         {/* tanishtiruv */}
@@ -53,7 +53,7 @@ const EnterComp = () => {
           }}
           className="text-center"
         >
-          <div className="w-[80%] mx-auto border-2 rounded-[30px]">
+          <div className="w-[75%] mx-auto border-2 rounded-[30px]">
             <img src="/maruf.jpg" alt="" className="rounded-[30px]" />
           </div>
           <h1 className="text-[25px] leading-7 text-[#9A7447] font-cormorant font-bold mt-2">
