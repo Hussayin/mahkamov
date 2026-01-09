@@ -25,7 +25,7 @@ const EnterComp = () => {
   return (
     <div className="bg-[#101625] h-[100vh] flex items-center">
       {/* ASOSIY CONTAINER */}
-      <div className="w-full flex flex-col gap-[20px]">
+      <div className="w-full flex flex-col gap-[25px]">
         {/* tanishtiruv */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
@@ -94,33 +94,6 @@ const EnterComp = () => {
         >
           <div className="flex w-max animate-marquee gap-[10px]">
             {[...logos, ...logos].map((logo, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-center min-w-[150px]"
-              >
-                <img
-                  src={logo}
-                  alt="logo"
-                  className="h-[70px] object-cover opacity-90 transition"
-                />
-              </div>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* LOGO SLIDER */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            ease: "easeOut", // Easing funksiyasi
-            duration: 1, // Animatsiya davomiyligi
-            delay: 0.2,
-          }}
-          className="w-full overflow-hidden bg-[#0B0F1A] py-[12px]"
-        >
-          <div className="flex w-max animate-marqueeReverse gap-[10px]">
-            {[...logoss, ...logoss].map((logo, index) => (
               <div
                 key={index}
                 className="flex items-center justify-center min-w-[150px]"
