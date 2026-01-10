@@ -5,6 +5,7 @@ import NewCarpets from "../comps/NewCarpets";
 import Controller from "../comps/Controller";
 import Footer from "../comps/Footer";
 import EnterComp from "../comps/EnterComp";
+import SendInfos from "../comps/SendInfos";
 
 const Enter = () => {
   // useEffect(() => {
@@ -26,6 +27,7 @@ const Enter = () => {
     <div className="mb-[100px] overflow-hidden ">
       <Navbar />
       <EnterComp />
+      <SendInfos />
       <NewCarpets />
       {/* <Controller /> */}
       {/* <Footer /> */}
