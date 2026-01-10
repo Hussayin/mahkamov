@@ -74,7 +74,14 @@ const EnterComp = () => {
           <h1 className="text-[24px] text-[#c08d4f] font-bold animate-bounce font-cormorant">
             NAVBAT OLISH UCHUN YOZLING
           </h1>
-          <div className=" bg-[#ffc822] rounded-[22px] ">
+          <div
+            onClick={() => {
+              document.getElementById("signup")?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+            className=" bg-[#ffc822] rounded-[22px] "
+          >
             <h3 className=" text-black font-bold font-cormorant text-[20px] px-[15px]  py-[8px] ">
               Navbat olish
             </h3>
