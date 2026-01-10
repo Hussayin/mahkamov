@@ -26,7 +26,7 @@ const NewCarpets = () => {
         {allProducts.map((product) => (
           <div
             key={product.id}
-            className="bg-white flex flex-col border-2 border-[#9A7447] rounded-[10px] cursor-pointer"
+            className="bg-[#0B0F1A] flex flex-col border-2 border-white rounded-[10px] cursor-pointer"
             onClick={() => handleProductClick(product)}
           >
             {/* image */}
