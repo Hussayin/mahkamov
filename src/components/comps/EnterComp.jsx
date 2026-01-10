@@ -69,15 +69,15 @@ const EnterComp = () => {
             duration: 1, // Animatsiya davomiyligi
             delay: 0.2,
           }}
-          className=" flex justify-center items-center flex-col "
+          className=" flex justify-center gap-[10px] items-center flex-col "
         >
-          <h1 className="text-[24px] text-[#9A7447] font-bold font-cormorant">
+          <h1 className="text-[24px] text-[#ffc822] font-extrabold animate-bounce font-cormorant">
             NAVBAT OLISH UCHUN YOZLING
           </h1>
-          <div className=" bg-[#ffc822] rounded-[25px] ">
-            <h1 className=" text-black font-bold font-cormorant text-[20px] px-[17px]  py-[10px] ">
+          <div className=" bg-[#ffc822] rounded-[22px] ">
+            <h3 className=" text-black font-bold font-cormorant text-[22px] px-[17px]  py-[10px] ">
               Navbat olish
-            </h1>
+            </h3>
           </div>
         </motion.div>
 
