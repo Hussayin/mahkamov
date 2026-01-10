@@ -74,7 +74,7 @@ const SendInfos = () => {
   return (
     <div
       id="signup"
-      className=" w-full flex justify-center items-center  h-[700px] mb-[50px]  p-4 "
+      className=" w-full flex justify-center items-center mt-[40px]  h-[750px] mb-[50px]  p-4 "
     >
       <div className="max-w-md mx-auto bg-[#0B0F1A] rounded-2xl px-[10px] py-[35px] shadow">
         <h2 className="text-center  text-[22px] leading-6 font-bold mb-4 font-cormorant ">
