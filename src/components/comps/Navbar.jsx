@@ -27,7 +27,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-[30px]">
           <button onClick={() => setOpen(true)}>
-            <MdMenuOpen className="text-[#9A7447]" size={30} />
+            <MdMenuOpen className="text-[#c08d4f]" size={30} />
           </button>
         </div>
       </div>

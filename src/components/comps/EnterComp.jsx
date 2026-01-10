@@ -37,7 +37,7 @@ const EnterComp = () => {
           }}
           className="w-[90%] mx-auto text-center"
         >
-          <h1 className="text-[24px] text-[#9A7447] font-bold leading-6 font-cormorant">
+          <h1 className="text-[24px] text-[#c08d4f] font-bold leading-6 font-cormorant">
             Gilam savdosi bo'yicha 20 yildan ortiq tajribaga ega tadbirkor.
           </h1>
         </motion.div>
@@ -53,10 +53,10 @@ const EnterComp = () => {
           }}
           className="text-center"
         >
-          <div className="w-[75%] mx-auto border-2 border-[#9A7447] rounded-[30px]">
+          <div className="w-[75%] mx-auto border-2 border-[#c08d4f] rounded-[30px]">
             <img src="/maruf.jpg" alt="" className="rounded-[30px]" />
           </div>
-          <h1 className="text-[25px] leading-7 text-[#9A7447] font-cormorant font-bold mt-2">
+          <h1 className="text-[25px] leading-7 text-[#c08d4f] font-cormorant font-bold mt-2">
             Maruf Mahkamov <br /> 12 ta gilam do‘kon asoschisi
           </h1>
         </motion.div>
@@ -71,7 +71,7 @@ const EnterComp = () => {
           }}
           className=" flex justify-center gap-[10px] items-center flex-col "
         >
-          <h1 className="text-[24px] text-[#ffc822] font-extrabold animate-bounce font-cormorant">
+          <h1 className="text-[24px] text-[#c08d4f] font-bold animate-bounce font-cormorant">
             NAVBAT OLISH UCHUN YOZLING
           </h1>
           <div className=" bg-[#ffc822] rounded-[22px] ">
