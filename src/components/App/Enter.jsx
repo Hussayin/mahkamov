@@ -23,7 +23,7 @@ const Enter = () => {
   // }, []);
 
   return (
-    <div className="mb-[100px]">
+    <div className="mb-[100px] overflow-hidden ">
       <Navbar />
       <EnterComp />
       <NewCarpets />

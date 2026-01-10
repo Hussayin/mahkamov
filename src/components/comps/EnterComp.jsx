@@ -23,9 +23,9 @@ const logoss = [
 
 const EnterComp = () => {
   return (
-    <div className="bg-[#101625] flex items-center">
+    <div className="bg-[#101625] h-[95vh] flex items-center">
       {/* ASOSIY CONTAINER */}
-      <div className="w-full mt-[30px] mb-[40px] flex flex-col gap-[25px]">
+      <div className="w-full mb-[40px] flex flex-col gap-[25px]">
         {/* tanishtiruv */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
