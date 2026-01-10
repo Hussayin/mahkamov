@@ -53,7 +53,7 @@ const EnterComp = () => {
           }}
           className="text-center"
         >
-          <div className="w-[75%] mx-auto border-2 border-[#c08d4f] rounded-[30px]">
+          <div className="w-[73%] mx-auto border-2 border-[#c08d4f] rounded-[30px]">
             <img src="/maruf.jpg" alt="" className="rounded-[30px]" />
           </div>
           <h1 className="text-[25px] leading-7 text-[#c08d4f] font-cormorant font-bold mt-2">
@@ -75,7 +75,7 @@ const EnterComp = () => {
             NAVBAT OLISH UCHUN YOZLING
           </h1>
           <div className=" bg-[#ffc822] rounded-[22px] ">
-            <h3 className=" text-black font-bold font-cormorant text-[22px] px-[17px]  py-[10px] ">
+            <h3 className=" text-black font-bold font-cormorant text-[20px] px-[15px]  py-[8px] ">
               Navbat olish
             </h3>
           </div>
