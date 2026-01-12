@@ -9,7 +9,7 @@ import { TelegramContext } from "../context/TelegramContext";
 
 const AllCarpets = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [activeType, setActiveType] = useState("all");
+  const [activeType, setActiveType] = useState("All");
   const [minPrice, setMinPrice] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
   const { sendToTelegram } = useContext(TelegramContext);
@@ -19,7 +19,7 @@ const AllCarpets = () => {
 
   // 🔹 TYPE FILTER
   const filteredByType =
-    activeType === "all"
+    activeType === "All"
       ? allProducts
       : allProducts.filter((product) => product.typeProduct === activeType);
 
@@ -38,11 +38,9 @@ const AllCarpets = () => {
 
   return (
     <div>
-      <div className="">
-        <Controller />
-      </div>
+      <div className="">{/* <Controller /> */}</div>
       {/* EXIT */}
-      <div className="border-b-2 border-b-[#9e7746] rounded-b-[30px] bg-white">
+      {/* <div className="border-b-2 border-b-[#9e7746] rounded-b-[30px] bg-white">
         <NavLink
           to="/"
           className="py-[13px] px-[10px] flex items-center gap-[3px]"
@@ -52,21 +50,65 @@ const AllCarpets = () => {
             Назад
           </h3>
         </NavLink>
-      </div>
+      </div> */}
 
       {/* FILTERS + PRODUCTS */}
       <div className="mt-[10px] m-auto w-[95%] mb-[70px]">
+        <div className=" flex justify-center gap-[10px] flex-col items-center mb-[15px] ">
+          <div>
+            <img
+              src="/mmmLogo512.png"
+              alt="logo"
+              className=" rounded-lg object-cover h-[80px] w-[120px]"
+            />
+          </div>
+          <h1 className=" text-[25px] font-cormorant ">
+            Eron va Turkiya Premium gilamlari
+          </h1>
+        </div>
         {/* TYPE FILTER */}
         <div className="flex gap-[5px] mb-[10px] flex-wrap">
-          {["all", "Kvadratniy", "oval", "km", "daroshka"].map((type) => (
+          {["All", "Turkiya ", "Eron"].map((type) => (
             <button
               key={type}
               onClick={() => setActiveType(type)}
-              className={`px-4 font-cormorant font-bold py-1 rounded-full text-[15px] transition-all duration-300
+              className={`px-4 font-mono font-bold py-1 rounded-full text-[15px] transition-all duration-300
           ${
             activeType === type
-              ? "bg-[#9A7447] text-white shadow-md"
-              : "bg-white text-[#9A7447] border border-[#9A7447]"
+              ? "bg-[white] text-black shadow-md font-bold "
+              : "bg-[#0B0F1A] text-[white] border font-bold border-[white]"
+          }
+        `}
+            >
+              {type}
+            </button>
+          ))}
+        </div>
+        {/* TYPE FILTER */}
+        <div className="flex gap-[5px] overflow-x-auto mt-[15px] mb-[15px]">
+          {[
+            "All",
+            "1.5x1.5",
+            "2x2",
+            "2x3",
+            "2.5x3.5",
+            "3x3",
+            "3x4",
+            "3x5",
+            "3x6",
+            "4x5",
+            "4x6",
+            "4x7",
+            "4x8",
+          ].map((type) => (
+            <button
+              key={type}
+              onClick={() => setActiveType(type)}
+              className={`px-4 font-mono font-bold py-1 rounded-full text-[15px] transition-all duration-300
+          ${
+            activeType === type
+              ? "bg-[white] text-black shadow-md font-bold "
+              : "bg-[#0B0F1A] text-[white] border font-bold border-[white]"
           }
         `}
             >
@@ -76,7 +118,7 @@ const AllCarpets = () => {
         </div>
 
         {/* PRICE FILTER */}
-        <div className="flex items-center gap-4 mt-[10px] w-[100%] mb-[15px] m-auto">
+        <div className="flex items-center gap-4 mt-[10px] w-[100%] mb-[13px] m-auto">
           <input
             type="number"
             placeholder="Min price"
@@ -98,7 +140,7 @@ const AllCarpets = () => {
           {filteredProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-white flex flex-col border-2 border-[#9A7447] rounded-[10px] cursor-pointer"
+              className="bg-[#0B0F1A] flex flex-col border-2 border-white rounded-[10px] cursor-pointer"
               onClick={() => handleProductClick(product)}
             >
               {/* IMAGE */}

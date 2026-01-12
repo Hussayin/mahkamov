@@ -6,6 +6,7 @@ import Controller from "../comps/Controller";
 import Footer from "../comps/Footer";
 import EnterComp from "../comps/EnterComp";
 import SendInfos from "../comps/SendInfos";
+import AllCarpets from "../comps/AllCarpets";
 
 const Enter = () => {
   // useEffect(() => {
@@ -28,7 +29,7 @@ const Enter = () => {
       <Navbar />
       <EnterComp />
       <SendInfos />
-      <NewCarpets />
+      <AllCarpets />
       {/* <Controller /> */}
       {/* <Footer /> */}
     </div>
