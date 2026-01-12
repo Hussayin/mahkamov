@@ -109,7 +109,7 @@ const SendInfos = () => {
             type="number"
             className="w-full outline-none bg-[#101625] p-[5px] "
             placeholder="Masalan: 80"
-            value={area}
+            value={phone}
             onChange={(e) => setArea(e.target.value)}
           />
         </div>
