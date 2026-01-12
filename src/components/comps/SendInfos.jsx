@@ -106,10 +106,10 @@ const SendInfos = () => {
         <div className="flex items-center border rounded-lg p-3 mb-3">
           <FaRulerCombined className="text-gray-400 mr-2" />
           <input
-            type="number"
+            type="tel"
             className="w-full outline-none bg-[#101625] p-[5px] "
             placeholder="Masalan: 80"
-            value={phone}
+            value={area}
             onChange={(e) => setArea(e.target.value)}
           />
         </div>
