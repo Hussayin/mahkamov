@@ -63,7 +63,7 @@ const AllCarpets = () => {
 
         {/* COUNTRY FILTER */}
         <div className="flex gap-[5px] mb-[10px] flex-wrap">
-          {["All", "Turkiya", "Eron"].map((country) => (
+          {["All", "Aksiya", "Turkiya", "Eron"].map((country) => (
             <button
               key={country}
               onClick={() => setActiveCountry(country)}

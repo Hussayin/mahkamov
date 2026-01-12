@@ -1,4 +1,32 @@
 export const Carpets = {
+  Aksiya: [
+    {
+      id: "aksiya-001",
+      countri:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/500px-Flag_of_Iran.svg.png",
+      image: "https://www.sagexpress.uz/media/images/MX1329_DA32.jpg",
+      price: 122,
+      typeProduct: "2x3",
+      demoPrice: 133,
+      aboutProduct: "Eron Collection",
+      zichligi: "1 m² ga 2880000 tugun",
+      material: "100% paxta",
+      ipBalandligi: "7mm",
+    },
+    {
+      id: "aksiya-002",
+      countri:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/500px-Flag_of_Iran.svg.png",
+      image: "https://www.sagexpress.uz/media/images/da12.jpg",
+      price: 133,
+      demoPrice: 144,
+      typeProduct: "1.5x1.5",
+      aboutProduct: "Eron Collection",
+      zichligi: "1 m² ga 2880000 tugun",
+      material: "100% paxta",
+      ipBalandligi: "7mm",
+    },
+  ],
   Eron: [
     {
       id: "eron-001",
