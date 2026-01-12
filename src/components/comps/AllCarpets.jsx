@@ -1,34 +1,44 @@
 import React, { useContext, useState } from "react";
-import { IoIosArrowBack } from "react-icons/io";
-import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import ProductModal from "./ProductModal";
-import { Carpets } from "../DataBasee/AllProducts"; // 🔴 yo‘lni tekshir
-import Controller from "./Controller";
+import { Carpets } from "../DataBasee/AllProducts";
 import { TelegramContext } from "../context/TelegramContext";
 
 const AllCarpets = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [activeType, setActiveType] = useState("All");
+
+  // 🔥 FILTER STATES (ALOHIDA)
+  const [activeCountry, setActiveCountry] = useState("All");
+  const [activeSize, setActiveSize] = useState("All");
   const [minPrice, setMinPrice] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
+
   const { sendToTelegram } = useContext(TelegramContext);
 
-  // 🔹 FAQAT ERON MAHSULOTLARI
+  // 🔹 BARCHA MAHSULOTLAR
   const allProducts = Object.values(Carpets).flat();
 
-  // 🔹 TYPE FILTER
-  const filteredByType =
-    activeType === "All"
+  // 🔹 COUNTRY FILTER
+  const filteredByCountry =
+    activeCountry === "All"
       ? allProducts
-      : allProducts.filter((product) => product.typeProduct === activeType);
+      : allProducts.filter((product) =>
+          product.id.startsWith(activeCountry.toLowerCase())
+        );
+
+  // 🔹 SIZE FILTER
+  const filteredBySize =
+    activeSize === "All"
+      ? filteredByCountry
+      : filteredByCountry.filter(
+          (product) => product.typeProduct === activeSize
+        );
 
   // 🔹 PRICE FILTER
-  const filteredProducts = filteredByType.filter((product) => {
-    const price = product.price;
+  const filteredProducts = filteredBySize.filter((product) => {
     const min = minPrice ? Number(minPrice) : 0;
     const max = maxPrice ? Number(maxPrice) : Infinity;
-    return price >= min && price <= max;
+    return product.price >= min && product.price <= max;
   });
 
   const handleProductClick = (product) => {
@@ -38,53 +48,38 @@ const AllCarpets = () => {
 
   return (
     <div>
-      <div className="">{/* <Controller /> */}</div>
-      {/* EXIT */}
-      {/* <div className="border-b-2 border-b-[#9e7746] rounded-b-[30px] bg-white">
-        <NavLink
-          to="/"
-          className="py-[13px] px-[10px] flex items-center gap-[3px]"
-        >
-          <IoIosArrowBack className="text-[#9e7746]" />
-          <h3 className="font-cormorant text-[23px] text-[#9e7746] font-bold">
-            Назад
-          </h3>
-        </NavLink>
-      </div> */}
-
-      {/* FILTERS + PRODUCTS */}
       <div className="mt-[10px] m-auto w-[95%] mb-[70px]">
-        <div className=" flex justify-center gap-[10px] flex-col items-center mb-[15px] ">
-          <div>
-            <img
-              src="/mmmLogo512.png"
-              alt="logo"
-              className=" rounded-lg object-cover h-[80px] w-[120px]"
-            />
-          </div>
-          <h1 className=" text-[25px] font-cormorant ">
+        {/* HEADER */}
+        <div className="flex justify-center gap-[10px] flex-col items-center mb-[15px]">
+          <img
+            src="/mmmLogo512.png"
+            alt="logo"
+            className="rounded-lg object-cover h-[80px] w-[120px]"
+          />
+          <h1 className="text-[25px] font-cormorant">
             Eron va Turkiya Premium gilamlari
           </h1>
         </div>
-        {/* TYPE FILTER */}
+
+        {/* COUNTRY FILTER */}
         <div className="flex gap-[5px] mb-[10px] flex-wrap">
-          {["All", "Turkiya ", "Eron"].map((type) => (
+          {["All", "Turkiya", "Eron"].map((country) => (
             <button
-              key={type}
-              onClick={() => setActiveType(type)}
-              className={`px-4 font-mono font-bold py-1 rounded-full text-[15px] transition-all duration-300
-          ${
-            activeType === type
-              ? "bg-[white] text-black shadow-md font-bold "
-              : "bg-[#0B0F1A] text-[white] border font-bold border-[white]"
-          }
-        `}
+              key={country}
+              onClick={() => setActiveCountry(country)}
+              className={`px-4 font-mono font-bold py-1 rounded-full text-[15px]
+                ${
+                  activeCountry === country
+                    ? "bg-[white] text-black shadow-md"
+                    : "bg-[#0B0F1A] text-white border border-white"
+                }`}
             >
-              {type}
+              {country}
             </button>
           ))}
         </div>
-        {/* TYPE FILTER */}
+
+        {/* SIZE FILTER */}
         <div className="flex gap-[5px] overflow-x-auto mt-[15px] mb-[15px]">
           {[
             "All",
@@ -100,19 +95,18 @@ const AllCarpets = () => {
             "4x6",
             "4x7",
             "4x8",
-          ].map((type) => (
+          ].map((size) => (
             <button
-              key={type}
-              onClick={() => setActiveType(type)}
-              className={`px-4 font-mono font-bold py-1 rounded-full text-[15px] transition-all duration-300
-          ${
-            activeType === type
-              ? "bg-[white] text-black shadow-md font-bold "
-              : "bg-[#0B0F1A] text-[white] border font-bold border-[white]"
-          }
-        `}
+              key={size}
+              onClick={() => setActiveSize(size)}
+              className={`px-4 font-mono font-bold py-1 rounded-full text-[15px]
+                ${
+                  activeSize === size
+                    ? "bg-[white] text-black shadow-md"
+                    : "bg-[#0B0F1A] text-white border border-white"
+                }`}
             >
-              {type}
+              {size}
             </button>
           ))}
         </div>
@@ -124,14 +118,14 @@ const AllCarpets = () => {
             placeholder="Min price"
             value={minPrice}
             onChange={(e) => setMinPrice(e.target.value)}
-            className="w-full rounded-[10px] border-[#9A7447] border-[2px] font-cormorant font-bold px-[5px] py-[5px] text-black"
+            className="w-full bg-[#0B0F1A] rounded-[10px] border-[white] border-[2px] font-mono font-bold px-[8px] py-[6px] text-white"
           />
           <input
             type="number"
             placeholder="Max price"
             value={maxPrice}
             onChange={(e) => setMaxPrice(e.target.value)}
-            className="w-full rounded-[10px] border-[#9A7447] border-[2px] px-[5px] py-[5px] font-cormorant font-bold text-black"
+            className="w-full bg-[#0B0F1A] rounded-[10px] border-[white] border-[2px] px-[8px] py-[6px] font-mono font-bold text-black"
           />
         </div>
 
@@ -143,7 +137,6 @@ const AllCarpets = () => {
               className="bg-[#0B0F1A] flex flex-col border-2 border-white rounded-[10px] cursor-pointer"
               onClick={() => handleProductClick(product)}
             >
-              {/* IMAGE */}
               <div className="w-[95%] m-auto mt-[7px]">
                 <motion.img
                   src={product.image}
@@ -155,13 +148,12 @@ const AllCarpets = () => {
                 />
               </div>
 
-              {/* PRICE */}
               <div className="m-[7px] flex justify-between">
                 <div className="leading-5">
-                  <h3 className="text-[17px] font-mono font-bold whitespace-nowrap">
+                  <h3 className="text-[17px] font-mono font-bold">
                     {product.price.toLocaleString("de-DE")}$
                   </h3>
-                  <h4 className="line-through text-[12px] font-mono font-bold whitespace-nowrap">
+                  <h4 className="line-through text-[12px] font-mono font-bold">
                     {product.demoPrice.toLocaleString("de-DE")}$
                   </h4>
                 </div>
