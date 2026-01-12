@@ -10,7 +10,15 @@ import Eron from "../comps/Eron";
 import Turkiya from "../comps/Turkiya";
 import AllCarpets from "../comps/AllCarpets";
 
+import { useEffect } from "react";
+import { InitTelegram } from "../../utils/Telegram";
+import { SendUserToBot } from "../../utils/SendUser";
+
 const App = () => {
+  useEffect(() => {
+    InitTelegram();
+    SendUserToBot();
+  }, []);
   return (
     <div className="app">
       <BrowserRouter>
