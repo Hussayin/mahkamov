@@ -34,7 +34,7 @@ const NewCarpets = () => {
               <motion.img
                 src={product.image}
                 alt={product.aboutProduct}
-                className="h-[260px]"
+                className="h-[260px] rotate-90 "
                 initial={{ opacity: 0, filter: "blur(12px)", scale: 1.05 }}
                 animate={{ opacity: 1, filter: "blur(0px)", scale: 1 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
@@ -46,9 +46,6 @@ const NewCarpets = () => {
               <div className="leading-5">
                 <h3 className="text-[17px] font-mono font-bold whitespace-nowrap">
                   {product.price.toLocaleString("de-DE")}$
-                  <span className="text-[15px] font-mono pl-[5px]">
-                    {product.typeProduct1}
-                  </span>
                 </h3>
 
                 <h4 className="line-through text-[12px] font-mono font-bold whitespace-nowrap">
@@ -78,3 +75,53 @@ const NewCarpets = () => {
 };
 
 export default NewCarpets;
+
+//! 90° o‘ngga aylantirish (Right)
+// <img
+//   src="/images/carpet.webp"
+//   className="rotate-90"
+// />
+
+//! 90° chapga aylantirish (Left)
+// <img
+//   src="/images/carpet.webp"
+//   className="-rotate-90"
+// />
+
+//! 180° aylantirish (teskari)
+// <img
+//   src="/images/carpet.webp"
+//   className="rotate-180"
+// />
+
+//! Umuman aylantirmaslik (default)
+// <img
+//   src="/images/carpet.webp"
+//   className="rotate-0"
+// />
+
+//! Gorizontal ag‘darish (chap ↔ o‘ng flip)
+// <img
+//   src="/images/carpet.webp"
+//   className="scale-x-[-1]"
+// />
+
+//! Vertikal ag‘darish (tepasi ↔ pasti)
+// <img
+//   src="/images/carpet.webp"
+//   className="scale-y-[-1]"
+// />
+
+//! Aylantirib + markazga moslash (ENG KERAKLI) Agar rasm joyidan chiqib ketayotgan bo‘lsa:
+// <img
+//   src="/images/carpet.webp"
+//   className="rotate-90 object-contain w-full h-full"
+// />
+
+//! Dynamic qilish (button bilan boshqarish)
+// const [rotate, setRotate] = useState(0);
+// <img
+//   src="/images/carpet.webp"
+//   className={`transition-transform duration-300 rotate-[${rotate}deg]`}
+// />
+// <button onClick={() => setRotate(rotate + 90)}>Aylantir</button>

@@ -40,8 +40,12 @@ const ProductModal = ({ product, closeModal }) => {
 
           {/* CONTENT */}
           <div className=" flex-1 overflow-y-auto mb-[200px] ">
-            <div className=" w-[95%] m-auto ">
-              <img src={product.image} alt={product.aboutProduct} />
+            <div className={`${product.rotate} mb-[100px] w-[100%] m-auto`}>
+              <img
+                src={product.image}
+                className=" object-contain h-[100%] w-[100%]  "
+                alt={product.aboutProduct}
+              />
             </div>
 
             <div className=" flex justify-center gap-2 items-center mt-[20px] ">

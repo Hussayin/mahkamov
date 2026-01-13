@@ -137,11 +137,11 @@ const AllCarpets = () => {
               className="bg-[#0B0F1A] flex flex-col border-2 border-white rounded-[10px] cursor-pointer"
               onClick={() => handleProductClick(product)}
             >
-              <div className="w-[95%] m-auto mt-[7px]">
+              <div className={`w-[95%] ${product.rotate} m-auto mt-[7px]`}>
                 <motion.img
                   src={product.image}
                   alt={product.aboutProduct}
-                  className="h-[260px]"
+                  className=" h-[200px] w-[100%] object-contain "
                   initial={{ opacity: 0, filter: "blur(12px)", scale: 1.05 }}
                   animate={{ opacity: 1, filter: "blur(0px)", scale: 1 }}
                   transition={{ duration: 0.6, ease: "easeOut" }}
