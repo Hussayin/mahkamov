@@ -65,7 +65,7 @@ const AllCarpets = () => {
           <img
             src="/mmmLogo512.png"
             alt="logo"
-            className="rounded-lg h-[80px] w-[120px]"
+            className="rounded-lg object-cover h-[80px] w-[120px]"
           />
           <h1 className="text-[25px] font-cormorant">
             Eron va Turkiya Premium gilamlari
