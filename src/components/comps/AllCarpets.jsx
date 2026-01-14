@@ -83,7 +83,13 @@ const AllCarpets = () => {
         <div className="flex gap-[5px] overflow-x-auto mt-[15px] mb-[15px]">
           {[
             "All",
+            "1x2",
+            "1x25",
+            "1.2x25",
             "1.5x1.5",
+            "1.5x2.25",
+            "1.5x25",
+            "2x25",
             "2x2",
             "2x3",
             "2.5x3.5",
@@ -91,6 +97,9 @@ const AllCarpets = () => {
             "3x4",
             "3x5",
             "3x6",
+            "3.5x5",
+            "3.5x6",
+            "4x4",
             "4x5",
             "4x6",
             "4x7",
@@ -149,13 +158,19 @@ const AllCarpets = () => {
               </div>
 
               <div className="m-[7px] flex justify-between">
-                <div className="leading-5">
+                {/* <div className="leading-5">
                   <h3 className="text-[17px] font-mono font-bold">
                     {product.price.toLocaleString("de-DE")}$
                   </h3>
                   <h4 className="line-through text-[12px] font-mono font-bold">
                     {product.demoPrice.toLocaleString("de-DE")}$
                   </h4>
+                </div> */}
+
+                <div className="leading-5">
+                  <h3 className="text-[17px] font-mono font-bold">
+                    {product.typeProduct.toLocaleString("de-DE")}
+                  </h3>
                 </div>
 
                 <img
