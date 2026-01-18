@@ -352,6 +352,38 @@ export const Carpets = {
       material: "100% paxta",
       ipBalandligi: "7mm",
     },
+    {
+      id: "eron-014",
+      countri:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/500px-Flag_of_Iran.svg.png",
+      image: "https://mahkamov-images.netlify.app/eron/IMG_8662.webp",
+      image1: "",
+      design: "1323b",
+      rotate: "rotate-90",
+      price: 75,
+      typeProduct: ["3x4"],
+      demoPrice: 180,
+      aboutProduct: "Afshar 1500 Madal Eron Collection",
+      zichligi: "1.500.000 taroq",
+      material: "100% paxta",
+      ipBalandligi: "7mm",
+    },
+    {
+      id: "eron-015",
+      countri:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/500px-Flag_of_Iran.svg.png",
+      image: "https://mahkamov-images.netlify.app/eron/IMG_8664.webp",
+      image1: "",
+      design: "1323b",
+      rotate: "",
+      price: 75,
+      typeProduct: ["3x4"],
+      demoPrice: 180,
+      aboutProduct: "Afshar 1500 Madal Eron Collection",
+      zichligi: "1.500.000 taroq",
+      material: "100% paxta",
+      ipBalandligi: "7mm",
+    },
   ],
   // Turkiya: [
   //   {
