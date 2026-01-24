@@ -134,6 +134,10 @@ const AllCarpets = () => {
               className="bg-[#0B0F1A] border-2 w-[100%] p-[15px] border-white rounded-[10px] cursor-pointer"
               onClick={() => handleProductClick(product)}
             >
+              {/* name code */}
+              <div>
+                <h1 className=" uppercase font-mono ">#{product.design}</h1>
+              </div>
               <div className={`w-[100%]  ${product.rotate} m-auto mt-[7px]`}>
                 <motion.img
                   src={product.image}
@@ -148,7 +152,7 @@ const AllCarpets = () => {
               <div className="m-2 flex justify-center gap-[20px] items-center">
                 <div className="leading-5">
                   <h3 className="text-[20px] font-mono font-bold">
-                    {(product.price + 20).toLocaleString("de-DE")}$
+                    {(product.price + 30).toLocaleString("de-DE")}$
                   </h3>
                   <h4 className="line-through opacity-40 text-[12px] font-mono font-bold">
                     {product.demoPrice.toLocaleString("de-DE")}$

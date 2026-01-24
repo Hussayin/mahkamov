@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { FaUser, FaPhone, FaRulerCombined, FaImage } from "react-icons/fa";
 import { toast } from "react-toastify";
 
-const BOT_TOKEN = "8351701042:AAGQV4yWp6yN-ILgyW0LikvXS9387uKkIU0";
-const CHAT_ID = "@userssanathaliuz";
+const BOT_TOKEN = "8128907679:AAEKOkEbUmqCGKPjctvTSZPHFszQT26RRWs";
+const CHAT_ID = "@mahkamovClientUz";
 
 const SendInfos = () => {
   const [name, setName] = useState("");

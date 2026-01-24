@@ -40,6 +40,10 @@ const ProductModal = ({ product, closeModal }) => {
 
           {/* CONTENT */}
           <div className=" flex-1 overflow-y-auto mb-[200px] ">
+            {/* name code */}
+            <div className=" text-center m-auto ">
+              <h1 className=" uppercase font-mono ">#{product.design}</h1>
+            </div>
             <div
               className={`${product.rotate} mt-[100px]  mb-[100px] w-[100%] m-auto`}
             >
@@ -50,7 +54,7 @@ const ProductModal = ({ product, closeModal }) => {
               />
             </div>
 
-            <div className=" flex flex-col justify-center gap-3 items-center mt-[20px] ">
+            <div className=" flex flex-col justify-center gap-3 items-center mt-[15px] ">
               <img
                 src={product.countri}
                 alt={product.aboutProduct}
@@ -62,7 +66,7 @@ const ProductModal = ({ product, closeModal }) => {
             </div>
             <div className=" flex justify-center items-center text-white ">
               <p className=" font-mono font-bold text-[25px] ">
-                Цена: {(product.price + 20).toLocaleString("de-DE")}$
+                Цена: {(product.price + 30).toLocaleString("de-DE")}$
                 <span className=" font-mono font-bold text-[13px] line-through pl-[5px] opacity-35 text-white ">
                   {product.demoPrice.toLocaleString("de-DE")}$
                 </span>

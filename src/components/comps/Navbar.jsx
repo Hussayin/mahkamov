@@ -71,7 +71,7 @@ const Navbar = () => {
                       duration: 1, // Animatsiya davomiyligi
                       delay: 0.2,
                     }}
-                    href="https://maps.app.goo.gl/fqPkLFAJHpWpFBi59"
+                    href="https://maps.app.goo.gl/hXmR8HnFqTpARHRU8"
                     target="_blank"
                     className=" flex justify-center bg-[#101625] text-[#9A7447] border-[#9A7447] font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-cormorant text-[20px] w-[100%] "
                   >
@@ -87,7 +87,7 @@ const Navbar = () => {
                       duration: 1, // Animatsiya davomiyligi
                       delay: 0.3,
                     }}
-                    href="https://www.instagram.com/hussayn_077"
+                    href="https://www.instagram.com/maruf__mahkamov/"
                     target="_blank"
                     className=" flex justify-center bg-[#101625] text-[#9A7447] border-[#9A7447] font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-cormorant text-[20px] w-[100%] "
                   >
