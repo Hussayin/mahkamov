@@ -115,14 +115,14 @@ const AllCarpets = () => {
             placeholder="Min price"
             value={minPrice}
             onChange={(e) => setMinPrice(e.target.value)}
-            className="w-full bg-[#0B0F1A] rounded-[10px] border-2 border-white px-2 py-1 text-white font-mono"
+            className="w-full bg-[#0B0F1A] rounded-[10px] border-2 border-white border-opacity-70 px-2 py-1 text-white font-mono"
           />
           <input
             type="number"
             placeholder="Max price"
             value={maxPrice}
             onChange={(e) => setMaxPrice(e.target.value)}
-            className="w-full bg-[#0B0F1A] rounded-[10px] border-2 border-white px-2 py-1 text-white font-mono"
+            className="w-full bg-[#0B0F1A] rounded-[10px] border-2 border-white px-2 py-1 border-opacity-70 text-white font-mono"
           />
         </div>
 
