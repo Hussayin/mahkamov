@@ -50,32 +50,44 @@ const ProductModal = ({ product, closeModal }) => {
               />
             </div>
 
-            <div className=" flex justify-center gap-2 items-center mt-[20px] ">
+            <div className=" flex flex-col justify-center gap-3 items-center mt-[20px] ">
               <img
                 src={product.countri}
                 alt={product.aboutProduct}
                 className=" h-[20px] "
               />
-              <h2 className=" font-cormorant font-bold text-[25px] leading-5 text-[#9e7746] ">
+              <h2 className=" font-cormorant font-bold text-[25px] leading-5 text-white ">
                 {product.aboutProduct}
               </h2>
             </div>
-            <div className=" flex justify-center items-center text-[#9e7746] ">
+            <div className=" flex justify-center items-center text-white ">
               <p className=" font-mono font-bold text-[25px] ">
-                Цена: {product.price.toLocaleString("de-DE")}$
-                <span className=" font-mono font-bold text-[13px] line-through pl-[5px]  text-[#9e7746] ">
+                Цена: {(product.price + 20).toLocaleString("de-DE")}$
+                <span className=" font-mono font-bold text-[13px] line-through pl-[5px] opacity-35 text-white ">
                   {product.demoPrice.toLocaleString("de-DE")}$
                 </span>
               </p>
             </div>
 
-            <div className=" text-[#9e7746] font-bold text-[23px] mt-[10px] w-[95%] m-auto ">
+            {/* RAZMERLAR */}
+            <div className="flex flex-wrap px-[15px]  gap-[5px] mt-[25px] ">
+              {product.typeProduct.map((size) => (
+                <span
+                  key={size}
+                  className="text-[13px] font-mono font-bold px-2 py-[2px] bg-white text-black rounded-full"
+                >
+                  {size}
+                </span>
+              ))}
+            </div>
+
+            {/* <div className=" text-[#9e7746] font-bold text-[23px] mt-[10px] w-[95%] m-auto ">
               <p className=" font-cormorant ">Зичлиги: {product.zichligi}</p>
               <p className=" font-cormorant ">Материал: {product.material}</p>
               <p className=" font-cormorant ">
                 Ип баландлиги: {product.ipBalandligi}
               </p>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </motion.div>
