@@ -152,7 +152,7 @@ const AllCarpets = () => {
               <div className="m-2 flex justify-center gap-[20px] items-center">
                 <div className="leading-5">
                   <h3 className="text-[20px] font-mono font-bold">
-                    {(product.price + 30).toLocaleString("de-DE")}$
+                    {product.price.toLocaleString("de-DE")}$
                   </h3>
                   <h4 className="line-through opacity-40 text-[12px] font-mono font-bold">
                     {product.demoPrice.toLocaleString("de-DE")}$

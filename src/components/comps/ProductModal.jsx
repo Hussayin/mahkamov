@@ -66,7 +66,7 @@ const ProductModal = ({ product, closeModal }) => {
             </div>
             <div className=" flex justify-center items-center text-white ">
               <p className=" font-mono font-bold text-[25px] ">
-                Цена: {(product.price + 30).toLocaleString("de-DE")}$
+                Цена: {product.price.toLocaleString("de-DE")}$
                 <span className=" font-mono font-bold text-[13px] line-through pl-[5px] opacity-35 text-white ">
                   {product.demoPrice.toLocaleString("de-DE")}$
                 </span>
