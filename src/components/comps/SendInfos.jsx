@@ -19,8 +19,8 @@ const SendInfos = () => {
       return;
     }
 
-    if (+area <= 50) {
-      toast.error("Gilam hajmi 50 kv.m dan katta bo‘lishi shart");
+    if (+area <= 69) {
+      toast.error("Gilam hajmi 70 kv.m dan katta bo‘lishi shart");
       return;
     }
 
@@ -83,7 +83,7 @@ const SendInfos = () => {
 
         {/* NAME */}
         <label className="text-sm font-medium">
-          Ism familiya <span className="text-red-500">*</span>
+          Ism familiya <span className="text-red-600">*</span>
         </label>
         <div className="flex items-center border rounded-lg p-3 mb-3">
           <FaUser className="text-gray-400 mr-2" />
@@ -98,10 +98,10 @@ const SendInfos = () => {
 
         {/* AREA */}
         <label className="text-sm font-medium">
-          Gilam hajmi (kv.m) <span className="text-red-500">*</span>
+          Gilam hajmi (kv.m) <span className="text-red-600">*</span>
         </label>
         <p className="text-xs text-gray-500 mb-1">
-          Eslatma: 50 kv.m dan katta bo‘lishi shart
+          Eslatma: 70 kv.m dan katta bo‘lishi shart
         </p>
         <div className="flex items-center border rounded-lg p-3 mb-3">
           <FaRulerCombined className="text-gray-400 mr-2" />
@@ -116,7 +116,7 @@ const SendInfos = () => {
 
         {/* PHONE */}
         <label className="text-sm font-medium">
-          Telefon raqam <span className="text-red-500">*</span>
+          Telefon raqam <span className="text-red-600">*</span>
         </label>
         <div className="flex items-center border rounded-lg p-3 mb-3">
           <FaPhone className="text-gray-400 mr-2" />
@@ -135,8 +135,8 @@ const SendInfos = () => {
           <span className="text-gray-400">(ixtiyoriy)</span>
         </label>
 
-        <label className="border-dashed border-2 rounded-lg p-4 flex flex-col items-center justify-center cursor-pointer mb-3">
-          <FaImage className="text-2xl text-gray-400 mb-1" />
+        <label className="border-dashed border-2 rounded-lg p-5 flex flex-col items-center justify-center cursor-pointer mb-3">
+          <FaImage className="text-3xl text-gray-400 mb-1" />
           <span className="text-sm text-gray-500">Rasm tanlash</span>
           <input
             type="file"
