@@ -74,7 +74,7 @@ const AllCarpets = () => {
 
         {/* COUNTRY FILTER */}
         <div className="flex gap-[5px] mb-[10px] flex-wrap">
-          {["All", "Aksiya", "Turkiya", "Eron"].map((country) => (
+          {["All", "Aksiya", "Turkiya"].map((country) => (
             <button
               key={country}
               onClick={() => setActiveCountry(country)}
@@ -142,7 +142,7 @@ const AllCarpets = () => {
                 <motion.img
                   src={product.image}
                   alt={product.aboutProduct}
-                  className=" w-full object-contain h-[400px] "
+                  className=" w-full object-contain h-[450px] "
                   initial={{ opacity: 0, filter: "blur(12px)" }}
                   animate={{ opacity: 1, filter: "blur(0px)" }}
                   transition={{ duration: 0.6 }}
