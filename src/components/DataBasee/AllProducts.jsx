@@ -410,7 +410,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_83_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra m959a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -441,7 +441,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_82_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra m959b",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -472,7 +472,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_80_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra 7019m",
       rotate: "",
       price: 40,
       typeProduct: [
