@@ -7,7 +7,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_99_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel",
+      design: "angel e407as",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -38,7 +38,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_98_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel",
+      design: "angel e408ak",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -69,7 +69,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_97_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel",
+      design: "angel e407as",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -100,7 +100,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_96_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel",
+      design: "angel e407ac",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -131,7 +131,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_95_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel",
+      design: "angel e408al",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -162,7 +162,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_93_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "olimpia",
+      design: "olimpia m826a",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -193,7 +193,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_92_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "olimpia",
+      design: "azure 7006a",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -224,7 +224,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_91_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "olimpia",
+      design: "doku mr054",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -255,7 +255,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_90_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "olimpia",
+      design: "Azure",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -286,7 +286,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_8_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "olimpia",
+      design: "usmon-bey k914a",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -317,7 +317,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_88_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "olimpia",
+      design: "olimpia m824b",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -348,7 +348,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_86_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "olimpia",
+      design: "olimpia m826a",
       rotate: "",
       price: 35,
       typeProduct: [
@@ -379,7 +379,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_85_2026-01-27_18-14-37.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "olimpia",
+      design: "Azure 7006A",
       rotate: "",
       price: 35,
       typeProduct: [
