@@ -503,7 +503,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_77_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra m961a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -534,7 +534,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_76_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra m952a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -596,7 +596,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_74_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra 7018m",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -627,7 +627,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_73_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra m952a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -658,7 +658,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_72_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra 7007m",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -689,7 +689,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_71_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra m960a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -751,7 +751,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_69_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra m956a",
       rotate: "",
       price: 40,
       typeProduct: [
