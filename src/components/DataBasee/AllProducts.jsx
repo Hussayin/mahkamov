@@ -720,7 +720,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_6_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "arven pr45b ",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -782,7 +782,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_67_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Mirage",
+      design: "Mirage 2150e",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -813,7 +813,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_65_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso",
+      design: "Kalipso pd91a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -844,7 +844,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_64_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso",
+      design: "Kalipso koyu-gri",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -875,7 +875,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_63_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Eron",
+      design: "kartal h536b",
       rotate: "",
       price: 45,
       typeProduct: [
@@ -906,7 +906,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_62_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "turkiya",
+      design: "elexus-versay 1684",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -937,7 +937,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_60_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "turkiya",
+      design: "kartal g552a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -968,7 +968,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_59_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "turkiya",
+      design: "mirage 2061k",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -999,7 +999,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_57_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "tj26a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1030,7 +1030,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_56_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "mirage 2135d",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1061,7 +1061,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_55_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1092,7 +1092,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_54_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "versay 1685",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1123,7 +1123,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_51_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1154,7 +1154,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_50_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "tacmahal 1751",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1185,7 +1185,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_4_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1216,7 +1216,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_49_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "isfahan 2119m",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1247,7 +1247,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_48_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "Kalipso Tj26a",
+      design: "",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1278,7 +1278,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_47_2026-01-27_18-14-36.webp",
       image1: "",
-      design: "Kalipso Tj26a",
+      design: "",
       rotate: "",
       price: 40,
       typeProduct: [
