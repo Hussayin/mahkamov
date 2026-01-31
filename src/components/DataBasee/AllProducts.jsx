@@ -1185,7 +1185,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_4_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "",
+      design: "sanat kalipso pd91b",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1247,7 +1247,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_48_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "",
+      design: "mirage 2194a",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1278,7 +1278,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_47_2026-01-27_18-14-36.webp",
       image1: "",
-      design: "",
+      design: "tacmahal 1756",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1309,7 +1309,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_46_2026-01-27_18-14-36.webp",
       image1: "",
-      design: "Kalipso Tj26a",
+      design: "mirage 2150i",
       rotate: "",
       price: 40,
       typeProduct: [
@@ -1340,7 +1340,7 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_44_2026-01-27_18-14-36.webp",
       image1: "",
-      design: "Kalipso Tj26a",
+      design: "",
       rotate: "",
       price: 40,
       typeProduct: [
