@@ -23,7 +23,7 @@ const logoss = [
 
 const EnterComp = () => {
   return (
-    <div className="bg-[#101625] h-auto mt-[45px] flex items-center">
+    <div className="bg-[#101625] h-auto mt-[37px] flex items-center">
       {/* ASOSIY CONTAINER */}
       <div className="w-full mb-[40px] flex flex-col gap-[25px]">
         {/* tanishtiruv */}
