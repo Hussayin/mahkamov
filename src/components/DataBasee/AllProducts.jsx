@@ -11,130 +11,7 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
-        "1x2",
-        "1x25",
-        "1.5x25",
-        "1.5x2.25",
-        "1.2x25",
-        "2x25",
-        "3x4",
-        "3.5x5",
-        "3.5x6",
-        "4x4",
-        "4x5",
-        "4x7",
-        "4x8",
-      ],
-      demoPrice: 45,
-      aboutProduct: "",
-      zichligi: "78 to'qim",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
-    },
-    {
-      id: "aksiya-002",
-      countri:
-        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-      image:
-        "https://mahkamov-images.netlify.app/aksiya/photo_98_2026-01-27_18-14-37.webp",
-      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel e408ak",
-      rotate: "",
-      price: 35,
-      typeProduct: [
-        "1x2",
-        "1x25",
-        "1.5x25",
-        "1.5x2.25",
-        "1.2x25",
-        "2x25",
-        "3x4",
-        "3.5x5",
-        "3.5x6",
-        "4x4",
-        "4x5",
-        "4x7",
-        "4x8",
-      ],
-      demoPrice: 45,
-      aboutProduct: "",
-      zichligi: "78 to'qim",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
-    },
-    {
-      id: "aksiya-003",
-      countri:
-        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-      image:
-        "https://mahkamov-images.netlify.app/aksiya/photo_97_2026-01-27_18-14-37.webp",
-      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel e407as",
-      rotate: "",
-      price: 35,
-      typeProduct: [
-        "1x2",
-        "1x25",
-        "1.5x25",
-        "1.5x2.25",
-        "1.2x25",
-        "2x25",
-        "3x4",
-        "3.5x5",
-        "3.5x6",
-        "4x4",
-        "4x5",
-        "4x7",
-        "4x8",
-      ],
-      demoPrice: 45,
-      aboutProduct: "",
-      zichligi: "78 to'qim",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
-    },
-    {
-      id: "aksiya-004",
-      countri:
-        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-      image:
-        "https://mahkamov-images.netlify.app/aksiya/photo_96_2026-01-27_18-14-37.webp",
-      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel e407ac",
-      rotate: "",
-      price: 35,
-      typeProduct: [
-        "1x2",
-        "1x25",
-        "1.5x25",
-        "1.5x2.25",
-        "1.2x25",
-        "2x25",
-        "3x4",
-        "3.5x5",
-        "3.5x6",
-        "4x4",
-        "4x5",
-        "4x7",
-        "4x8",
-      ],
-      demoPrice: 45,
-      aboutProduct: "",
-      zichligi: "78 to'qim",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
-    },
-    {
-      id: "aksiya-005",
-      countri:
-        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-      image:
-        "https://mahkamov-images.netlify.app/aksiya/photo_95_2026-01-27_18-14-37.webp",
-      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "angel e408al",
-      rotate: "",
-      price: 35,
-      typeProduct: [
+        "Angel",
         "1x2",
         "1x25",
         "1.5x25",
@@ -166,6 +43,135 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
+        "Olimpia",
+        "1x2",
+        "1x25",
+        "1.5x25",
+        "1.5x2.25",
+        "1.2x25",
+        "2x25",
+        "3x4",
+        "3.5x5",
+        "3.5x6",
+        "4x4",
+        "4x5",
+        "4x7",
+        "4x8",
+      ],
+      demoPrice: 45,
+      aboutProduct: "",
+      zichligi: "78 to'qim",
+      material: "100% paxta",
+      ipBalandligi: "7mm",
+    },
+    {
+      id: "aksiya-002",
+      countri:
+        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
+      image:
+        "https://mahkamov-images.netlify.app/aksiya/photo_98_2026-01-27_18-14-37.webp",
+      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
+      design: "angel e408ak",
+      rotate: "",
+      price: 35,
+      typeProduct: [
+        "Angel",
+        "1x2",
+        "1x25",
+        "1.5x25",
+        "1.5x2.25",
+        "1.2x25",
+        "2x25",
+        "3x4",
+        "3.5x5",
+        "3.5x6",
+        "4x4",
+        "4x5",
+        "4x7",
+        "4x8",
+      ],
+      demoPrice: 45,
+      aboutProduct: "",
+      zichligi: "78 to'qim",
+      material: "100% paxta",
+      ipBalandligi: "7mm",
+    },
+    {
+      id: "aksiya-003",
+      countri:
+        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
+      image:
+        "https://mahkamov-images.netlify.app/aksiya/photo_97_2026-01-27_18-14-37.webp",
+      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
+      design: "angel e407as",
+      rotate: "",
+      price: 35,
+      typeProduct: [
+        "Angel",
+        "1x2",
+        "1x25",
+        "1.5x25",
+        "1.5x2.25",
+        "1.2x25",
+        "2x25",
+        "3x4",
+        "3.5x5",
+        "3.5x6",
+        "4x4",
+        "4x5",
+        "4x7",
+        "4x8",
+      ],
+      demoPrice: 45,
+      aboutProduct: "",
+      zichligi: "78 to'qim",
+      material: "100% paxta",
+      ipBalandligi: "7mm",
+    },
+    {
+      id: "aksiya-004",
+      countri:
+        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
+      image:
+        "https://mahkamov-images.netlify.app/aksiya/photo_96_2026-01-27_18-14-37.webp",
+      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
+      design: "angel e407ac",
+      rotate: "",
+      price: 35,
+      typeProduct: [
+        "Angel",
+        "1x2",
+        "1x25",
+        "1.5x25",
+        "1.5x2.25",
+        "1.2x25",
+        "2x25",
+        "3x4",
+        "3.5x5",
+        "3.5x6",
+        "4x4",
+        "4x5",
+        "4x7",
+        "4x8",
+      ],
+      demoPrice: 45,
+      aboutProduct: "",
+      zichligi: "78 to'qim",
+      material: "100% paxta",
+      ipBalandligi: "7mm",
+    },
+    {
+      id: "aksiya-005",
+      countri:
+        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
+      image:
+        "https://mahkamov-images.netlify.app/aksiya/photo_95_2026-01-27_18-14-37.webp",
+      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
+      design: "angel e408al",
+      rotate: "",
+      price: 35,
+      typeProduct: [
+        "Angel",
         "1x2",
         "1x25",
         "1.5x25",
@@ -197,6 +203,7 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
+        "Azure",
         "1x2",
         "1x25",
         "1.5x25",
@@ -228,6 +235,7 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
+        "Doku",
         "1x2",
         "1x25",
         "1.5x25",
@@ -259,6 +267,7 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
+        "Azure",
         "1x2",
         "1x25",
         "1.5x25",
@@ -290,6 +299,7 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
+        "Usmon",
         "1x2",
         "1x25",
         "1.5x25",
@@ -321,6 +331,7 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
+        "Olimpia",
         "1x2",
         "1x25",
         "1.5x25",
@@ -352,6 +363,7 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
+        "Olimpia",
         "1x2",
         "1x25",
         "1.5x25",
@@ -383,6 +395,7 @@ export const Carpets = {
       rotate: "",
       price: 35,
       typeProduct: [
+        "Azure",
         "1x2",
         "1x25",
         "1.5x25",
@@ -414,6 +427,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -445,6 +459,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -476,6 +491,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -507,6 +523,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -538,6 +555,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -565,10 +583,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_75_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra",
+      design: "afra m956a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -600,6 +619,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -631,6 +651,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -662,6 +683,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -693,6 +715,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -724,6 +747,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -755,6 +779,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -786,6 +811,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Mirage",
         "1x2",
         "1x25",
         "1.5x25",
@@ -817,6 +843,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -848,6 +875,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -879,6 +907,7 @@ export const Carpets = {
       rotate: "",
       price: 45,
       typeProduct: [
+        "Kartal",
         "1x2",
         "1x25",
         "1.5x25",
@@ -906,10 +935,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_62_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "elexus-versay 1684",
+      design: "versay 1684",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Versay",
         "1x2",
         "1x25",
         "1.5x25",
@@ -941,6 +971,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kartal",
         "1x2",
         "1x25",
         "1.5x25",
@@ -972,6 +1003,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Mirage",
         "1x2",
         "1x25",
         "1.5x25",
@@ -999,10 +1031,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_57_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "tj26a",
+      design: "kalipso tj26a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1034,6 +1067,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Mirage",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1061,10 +1095,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_55_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "",
+      design: "Turkiya",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Turkiya",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1096,6 +1131,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Versay",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1123,10 +1159,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_51_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "",
+      design: "Turkiya",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Turkiya",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1158,6 +1195,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Tacmahal",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1185,10 +1223,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_4_2026-01-27_18-14-36.webp",
       image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "sanat kalipso pd91b",
+      design: "sanat-kalipso pd91b",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1220,6 +1259,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Isfahan",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1251,6 +1291,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Mirage",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1282,6 +1323,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Tacmahal",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1313,6 +1355,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Mirage",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1340,10 +1383,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/aksiya/photo_44_2026-01-27_18-14-36.webp",
       image1: "",
-      design: "eran g146",
+      design: "eron g146",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Eron",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1375,6 +1419,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Darush",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1405,7 +1450,7 @@ export const Carpets = {
       design: "eron",
       rotate: "",
       price: 40,
-      typeProduct: ["2x3"],
+      typeProduct: ["Eron", "2x3"],
       demoPrice: 55,
       aboutProduct: "",
       zichligi: "1500 taroq",
@@ -1423,6 +1468,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Darush",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1454,6 +1500,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Darush",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1485,6 +1532,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Eron",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1516,6 +1564,7 @@ export const Carpets = {
       rotate: "",
       price: 55,
       typeProduct: [
+        "Darush",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1547,6 +1596,7 @@ export const Carpets = {
       rotate: "",
       price: 55,
       typeProduct: [
+        "Darush",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1578,6 +1628,7 @@ export const Carpets = {
       rotate: "",
       price: 55,
       typeProduct: [
+        "Eron",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1609,7 +1660,7 @@ export const Carpets = {
       rotate: "",
       price: 55,
       typeProduct: [
-        "arven",
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1641,6 +1692,7 @@ export const Carpets = {
       rotate: "",
       price: 60,
       typeProduct: [
+        "Eron",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1672,6 +1724,7 @@ export const Carpets = {
       rotate: "",
       price: 60,
       typeProduct: [
+        "Eron",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1703,6 +1756,7 @@ export const Carpets = {
       rotate: "",
       price: 55,
       typeProduct: [
+        "Eron",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1734,6 +1788,7 @@ export const Carpets = {
       rotate: "",
       price: 55,
       typeProduct: [
+        "Eron",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1765,6 +1820,7 @@ export const Carpets = {
       rotate: "",
       price: 60,
       typeProduct: [
+        "Eron",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1796,6 +1852,7 @@ export const Carpets = {
       rotate: "",
       price: 60,
       typeProduct: [
+        "Afshar",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1827,6 +1884,7 @@ export const Carpets = {
       rotate: "",
       price: 60,
       typeProduct: [
+        "Doku",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1858,6 +1916,7 @@ export const Carpets = {
       rotate: "",
       price: 60,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1889,6 +1948,7 @@ export const Carpets = {
       rotate: "",
       price: 50,
       typeProduct: [
+        "Doku",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1920,6 +1980,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1951,6 +2012,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Doku",
         "1x2",
         "1x25",
         "1.5x25",
@@ -1982,6 +2044,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afshar",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2013,6 +2076,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afshar",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2044,6 +2108,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Barocco",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2075,6 +2140,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Olimpia",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2106,6 +2172,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Style",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2137,6 +2204,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Angel",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2168,6 +2236,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Doku",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2195,10 +2264,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_10_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "kalipso tj79c",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2226,10 +2296,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_11_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "olimpos pb21b",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Olimpos",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2257,10 +2328,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_12_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "olimpos mb06b",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Olimpos",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2288,10 +2360,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_13_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "sanat-kalipso pd91a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2319,10 +2392,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_15_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "kalipso tj26a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2350,10 +2424,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_14_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "sanat-kalipso pg29b",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2381,10 +2456,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_16_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "kalipso tj79b",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2412,10 +2488,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_17_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "kalipso tj16a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2443,10 +2520,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_18_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "oasis b203l2",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Oasis",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2474,10 +2552,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_19_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "olimpos pr76h",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Olimpos",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2505,10 +2584,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_1_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "namuna-sanat rn97a",
       rotate: "",
-      price: 40,
+      price: 20,
       typeProduct: [
+        "Sanat",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2523,7 +2603,7 @@ export const Carpets = {
         "4x7",
         "4x8",
       ],
-      demoPrice: 65,
+      demoPrice: 45,
       aboutProduct: "",
       zichligi: "1500 taroq",
       material: "100% paxta",
@@ -2536,10 +2616,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_20_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven rl21a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2567,10 +2648,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_21_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven pz97a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2629,10 +2711,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_23_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven pw11c",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2753,10 +2836,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_27_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "arven rl26a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2784,10 +2868,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_28_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "arven rj17a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2815,10 +2900,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_29_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven rl11a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2846,10 +2932,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_2_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "namuna-sanat Rk75e",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2877,10 +2964,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_30_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Angel e408ar",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Angel",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2908,10 +2996,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_31_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven pw55c",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2939,10 +3028,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_32_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven rj17a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -2970,10 +3060,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_33_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Angel e498as",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Angel",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3001,10 +3092,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_34_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Angel e407as",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Angel",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3032,10 +3124,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_35_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Angel e499as",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Angel",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3063,10 +3156,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_36_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Afra m954a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3094,10 +3188,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_37_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Afra m955a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3125,10 +3220,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_38_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Angel e419ae",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Angel",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3156,10 +3252,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_39_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Afra m595a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3187,10 +3284,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_3_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven pw09d",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3218,10 +3316,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_40_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "afra m951a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3249,10 +3348,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_41_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Afra 7019m",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3311,10 +3411,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_43_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Afra 7013A",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3342,10 +3443,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_44_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Afra 7007A",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3373,10 +3475,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_45_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "sanat-Kalipso pc59a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3404,10 +3507,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_46_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Afra m952a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3435,10 +3539,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_47_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Afra m958a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Afra",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3466,10 +3571,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_48_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Aspendos m988a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Aspendos",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3497,10 +3603,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_49_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "semerkant 1760",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Semerkant",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3563,6 +3670,7 @@ export const Carpets = {
       rotate: "",
       price: 40,
       typeProduct: [
+        "Crown",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3590,10 +3698,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_50_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Crown a739aw",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Crown",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3621,10 +3730,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_51_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "osakka m629q",
       rotate: "",
       price: 40,
       typeProduct: [
+        "osakka",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3652,10 +3762,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_52_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Sanat-Kalipso te21a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3683,10 +3794,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_5_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven pr48b",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3714,41 +3826,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_6_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Arven pw34b",
       rotate: "",
       price: 40,
       typeProduct: [
-        "1x2",
-        "1x25",
-        "1.5x25",
-        "1.5x2.25",
-        "1.2x25",
-        "2x25",
-        "3x4",
-        "3.5x5",
-        "3.5x6",
-        "4x4",
-        "4x5",
-        "4x7",
-        "4x8",
-      ],
-      demoPrice: 65,
-      aboutProduct: "",
-      zichligi: "1500 taroq",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
-    },
-    {
-      id: "aksiya-123",
-      countri:
-        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-      image:
-        "https://mahkamov-images.netlify.app/eron2/photo_7_2026-02-01_10-52-31.webp",
-      image1: "",
-      design: "",
-      rotate: "",
-      price: 40,
-      typeProduct: [
+        "Arven",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3776,10 +3858,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_8_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Sanat-kalipso pd02b",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Kalipso",
         "1x2",
         "1x25",
         "1.5x25",
@@ -3807,10 +3890,11 @@ export const Carpets = {
       image:
         "https://mahkamov-images.netlify.app/eron2/photo_9_2026-02-01_10-52-31.webp",
       image1: "",
-      design: "",
+      design: "Aspendos mb71a",
       rotate: "",
       price: 40,
       typeProduct: [
+        "Aspendos",
         "1x2",
         "1x25",
         "1.5x25",
