@@ -131,7 +131,7 @@ const AllCarpets = () => {
           {filteredProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-[#0B0F1A] border-[2px] border-opacity-50 w-[100%] p-[15px] border-white rounded-[10px] cursor-pointer"
+              className={`${product.abs}  bg-[#0B0F1A] border-[2px] border-opacity-50 w-[100%] p-[15px] border-white rounded-[10px] cursor-pointer`}
               onClick={() => handleProductClick(product)}
             >
               {/* name code */}

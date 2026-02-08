@@ -39,13 +39,13 @@ const ProductModal = ({ product, closeModal }) => {
           </div>
 
           {/* CONTENT */}
-          <div className=" flex-1 overflow-y-auto mb-[200px] ">
+          <div className=" flex-1 overflow-y-auto mb-[50px] ">
             {/* name code */}
             <div className=" text-center m-auto ">
               <h1 className=" uppercase font-mono ">#{product.design}</h1>
             </div>
             <div
-              className={`${product.rotate} mt-[100px]  mb-[100px] w-[100%] m-auto`}
+              className={`${product.rotate} mt-[20px]  mb-[50px] w-[100%] m-auto`}
             >
               <img
                 src={product.image}
