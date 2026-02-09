@@ -53,7 +53,7 @@ const EnterComp = () => {
           }}
           className="text-center"
         >
-          <div className="w-[73%] mx-auto border-2 border-[#c08d4f] rounded-[30px]">
+          <div className="w-[70%] mx-auto border-2 border-[#c08d4f] rounded-[30px]">
             <img src="/maruf.jpg" alt="" className="rounded-[30px]" />
           </div>
           <h1 className="text-[25px] leading-7 text-[#c08d4f] font-cormorant font-bold mt-2">
